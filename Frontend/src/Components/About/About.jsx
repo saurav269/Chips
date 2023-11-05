@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../assets/images/D33.png";
+import aboutImg from "../../assets/images/L2.png";
 import aboutCard from "../../assets/images/about-card.png";
 import { Link } from "react-router-dom";
 
@@ -11,9 +11,6 @@ const About = () => {
           {/* ================About img=================== */}
           <div className="relative w-3/4 lg:w-1/2 xl:w-[770px] z-10 order-2 lg:order-1">
             <img style={{ borderRadius: "5%" }} src={aboutImg} alt="" />
-            <div className="absolute z-20 bottom-4 w-[200px] md:w-[300px] right-[-30%] md:right-[-7%] lg:right-[22%]">
-              <img src={aboutCard} alt="" />
-            </div>
           </div>
           {/* =========================ABOUT CONTENT=========================== */}
           <div className="w-full lg:w-1/2 xl:w-[670px] order-1 lg:order-2">
