@@ -1,10 +1,10 @@
 import React from "react";
-import heroImg from "../assets/images/D22.png";
-import heroImg02 from "../assets/images/hero-img02.png";
-import heroImg03 from "../assets/images/hero-img03.png";
-import icon01 from "../assets/images/icon01.png";
+import heroImg from "../assets/images/L2.png";
+import heroImg02 from "../assets/images/L1.jpg";
+import heroImg03 from "../assets/images/L6.png";
+import icon01 from "../assets/images/L10.png";
 import icon02 from "../assets/images/icon02.png";
-import icon03 from "../assets/images/icon03.png";
+import icon03 from "../assets/images/L11.jpg";
 import faqImg from "../assets/images/faqImg1.png";
 import videoIcon from '../assets/images/video-icon.png';
 import avatarIcon from '../assets/images/avatar-icon.png';
@@ -79,8 +79,8 @@ const Home = () => {
                 />
               </div>
               <div className="mt-[30px]">
-                <img className="w-full mb-[30px]" src={heroImg02} alt="" />
-                <img className="w-full" src={heroImg03} alt="" />
+                <img className="w-full mb-[30px]" src={heroImg02} alt="" style={{ borderRadius: "18px" }} />
+                <img className="w-full" src={heroImg03} alt="" style={{ borderRadius: "18px", width: "270px" }} />
               </div>
             </div>
           </div>
@@ -93,30 +93,30 @@ const Home = () => {
         <div className="container">
           <div className="lg:w-[470px] mx-auto">
             <h2 className="heading text-center">
-              Providing the best medical services
+              Providing the best Chips in the World
             </h2>
             <p className="text__para text-center">
-              World class care for everyone. Our health system offers unmatched,
-              expert health care.
+              World class chips for everyone. Our Products offers delicious,
+              snacks.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
             <div className="py-[30px] px-5">
               <div className="flex items-center justify-center">
-                <img src={icon01} alt="" />
+                <img src={icon01} alt="" style={{ borderRadius: "18px" }} />
               </div>
 
               <div className="mt-[30px]">
                 <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
-                  Find a Doctor
+                  Lay's Dips
                 </h2>
                 <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  World class care for everyone. Our health system offers
-                  unmatched, expert health care.
+                World class Dips for everyone. Our Products offers delicious,
+              Dips.
                 </p>
                 <Link
-                  to="/doctors"
+                  to="/"
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
                 >
                   <BsArrowRight className="group-hover:text-white w-6 h-5" />
@@ -134,11 +134,11 @@ const Home = () => {
                   Find a Location
                 </h2>
                 <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  World class care for everyone. Our health system offers
-                  unmatched, expert health care.
+                World class Dips for everyone. Our Products offers delicious,
+              Dips.
                 </p>
                 <Link
-                  to="/doctors"
+                  to="/"
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
                 >
                   <BsArrowRight className="group-hover:text-white w-6 h-5" />
@@ -148,19 +148,18 @@ const Home = () => {
 
             <div className="py-[30px] px-5">
               <div className="flex items-center justify-center">
-                <img src={icon03} alt="" />
+                <img src={icon03} alt="" style={{ borderRadius: "18px", height:"148px" }} />
               </div>
 
               <div className="mt-[30px]">
                 <h2 className="text-[26px] leading-9 text-headingColor font-[700] text-center">
-                  Book an Appointment
+                  Recipes
                 </h2>
                 <p className="text-[16px] leading-7 text-textColor font-[400] mt-4 text-center">
-                  World class care for everyone. Our health system offers
-                  unmatched, expert health care.
+                LAY’S® Flamin’ Hot® Spicy Chicken Sandwich Recipes
                 </p>
                 <Link
-                  to="/doctors"
+                  to="/"
                   className="w-[44px] h-[44px] rounded-full border border-solid border-[#181A1E] mt-[30px] mx-auto flex items-center justify-center group hover:bg-primaryColor hover:border-none"
                 >
                   <BsArrowRight className="group-hover:text-white w-6 h-5" />
