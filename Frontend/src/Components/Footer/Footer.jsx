@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/images/logo1.jpg";
 import { RiLinkedinFill } from "react-icons/ri";
 import {
   AiFillYoutube,
@@ -29,7 +29,7 @@ const quickLinks01 = [
     display: " About Us",
   },
   {
-    path: "/services",
+    path: "/",
     display: "Services",
   },
   {
@@ -74,7 +74,7 @@ const Footer = () => {
       <div className="container">
         <div className="flex justify-between flex-col md:flex-row flex-wrap gap-[30px] ">
           <div>
-            <img src={logo} alt="" />
+            <img src={logo} alt="" style={{width : "134px"}} />
             <p className="text-[16px] leading-7 font-[400] text-textColor mt-4">
               Copyright @ {year} developed by Saurav Mallik all rights reserved
             </p>
@@ -108,25 +108,6 @@ const Footer = () => {
               ))}
             </ul>
           </div>
-
-          <div>
-            <h2 className="text-[20px] leading-[30px] font-[700] mb-6 text-headingColor">
-              I want to : 
-            </h2>
-            <ul>
-              {quickLinks02.map((item, i) => (
-                <li key={i} className="mb-4">
-                  <Link
-                    to={item.path}
-                    className="text-[16px] leading-7 font-[400] text-textColor"
-                  >
-                    {item.display}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
           <div>
             <h2 className="text-[20px] leading-[30px] font-[700] mb-6 text-headingColor">
               Support

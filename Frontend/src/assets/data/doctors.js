@@ -1,37 +1,28 @@
 
-import doctorImg01 from '../images/doc1.jpg'
-import doctorImg02 from '../images/doc2.jpg'
-import doctorImg03 from '../images/doc3.jpg'
+import Img01 from '../images/L6.png'
+import Img02 from '../images/L2.png'
+import Img03 from '../images/L5.jpg'
 
 export const doctors = [
     {
       id: "01",
-      name: "Dr. A Das",
-      specialization: "Surgeon",
+      name: "Cream & Onion",
       avgRating: 4.8,
       totalRating: 272,
-      photo: doctorImg01,
-      totalPatients: 1500,
-      hospital: "Mount Adora Hospital, Sylhet.",
+      photo: Img01,
     },
     {
       id: "02",
-      name: "Dr. S Banik",
-      specialization: "Neurologist",
+      name: "Hot & Spice",
       avgRating: 4.8,
       totalRating: 272,
-      photo: doctorImg02,
-      totalPatients: 1500,
-      hospital: "Mount Adora Hospital, Sylhet.",
+      photo: Img02,
     },
     {
       id: "03",
-      name: "Dr. D Dutta",
-      specialization: "Dermatologist",
+      name: "Sour Cream & Onion",
       avgRating: 4.8,
       totalRating: 272,
-      photo: doctorImg03,
-      totalPatients: 1500,
-      hospital: "Mount Adora Hospital, Sylhet.",
+      photo: Img03,
     },
   ];

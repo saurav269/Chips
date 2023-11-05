@@ -5,9 +5,7 @@ import heroImg03 from "../assets/images/L6.png";
 import icon01 from "../assets/images/L10.png";
 import icon02 from "../assets/images/icon02.png";
 import icon03 from "../assets/images/L11.jpg";
-import faqImg from "../assets/images/faqImg1.png";
-import videoIcon from '../assets/images/video-icon.png';
-import avatarIcon from '../assets/images/avatar-icon.png';
+import faqImg from "../assets/images/L4.jpg";
 import featureImg from "../assets/images/L11.jpg";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
@@ -224,8 +222,8 @@ const Home = () => {
         <div className="xl:w-[470px] mx-auto">
             <h2 className="heading text-center">Our great Products</h2>
             <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched,
-              expert health care.
+            World class chips for everyone. Our Products offers delicious,
+              snacks.
             </p>
           </div>
           <DoctorList />
@@ -238,7 +236,7 @@ const Home = () => {
         <div className="container">
           <div className="flex justify-between gap-[50px] lg:gap-0">
             <div className="w-1/2 hidden md:block">
-              <img src={faqImg} alt='' style={{height : "550px", borderRadius : "35px"}} />
+              <img src={faqImg} alt='' style={{height : "400px", borderRadius : "35px"}} />
             </div>
             <div className="w-full md:w-1/2">
               <h2 className="heading">Most questions by our beloved patients</h2>
@@ -251,18 +249,7 @@ const Home = () => {
         {/* ==========================FAQ Section END===================== */}
 
         {/* ==========================TESTIMONIAL Section START===================== */}
-        <section>
-          <div className="container">
-          <div className="xl:w-[470px] mx-auto">
-            <h2 className="heading text-center">What our patient say</h2>
-            <p className="text__para text-center">
-              World-class care for everyone. Our health System offers unmatched,
-              expert health care.
-            </p>
-          </div>
-          <Testimonial/>
-          </div>
-        </section>
+
         {/* ==========================TESTIMONIAL Section END===================== */}
     </>
   );
